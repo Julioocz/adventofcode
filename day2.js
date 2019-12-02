@@ -14,7 +14,7 @@ const multiplyOperation = createOperation(multiply);
 
 const parseInput = input => input.split(",").map(val => parseInt(val, 10));
 
-function computer(intcode) {
+const computer = intcode => {
   index = 0;
   while (index < intcode.length) {
     let optCode = intcode[index];
@@ -34,7 +34,7 @@ function computer(intcode) {
     }
   }
   return intcode;
-}
+};
 
 // First part
 const input = parseInput(INPUT);
