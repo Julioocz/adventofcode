@@ -27,5 +27,6 @@ const calculateTotalFuelWithoutFuelForFuel = input =>
 const calculateTotalFuelWithFuelForFuel = input =>
   calculateTotalModulesFuel(input, calculateFuelForFuel);
 
+// Result
 console.log(calculateTotalFuelWithoutFuelForFuel(INPUT));
 console.log(calculateTotalFuelWithFuelForFuel(INPUT));
